@@ -50,3 +50,7 @@ Bootstrap:
 Take from:
 
 http://getbootstrap.com/examples/carousel/
+
+
+create database:
+CREATE DATABASE vboard;
