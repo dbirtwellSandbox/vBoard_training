@@ -16,6 +16,7 @@ public class HomeController {
 	public String showHome() {
 
 		LOGGER.debug("Rendering home view");
+		// Renders home.html
 		return "home";
 	}
 
