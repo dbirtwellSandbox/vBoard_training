@@ -39,12 +39,14 @@ dbirtwellSandbox
 echo "# vBoard_training" >> README.md
 git init
 git add README.md
-gt add .
-//git commit -m "first commit"
+git add .
+git commit -m "first commit"
 git remote add origin https://github.com/dbirtwellSandbox/vBoard_training.git
 git push -u origin master
 
-or push an existing repository from the command line
 
-git remote add origin https://github.com/dbirtwellSandbox/vBoard_training.git
-git push -u origin master
+Bootstrap:
+
+Take from:
+
+http://getbootstrap.com/examples/carousel/
