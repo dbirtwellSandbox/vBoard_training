@@ -73,7 +73,7 @@ Add revisions
 > git add .
 
 Commit local
-> git commit
+> git commit -m "adding register view"
 
 push
 > git push origin register_view
