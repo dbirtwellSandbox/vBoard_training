@@ -3,7 +3,7 @@ This is the 1st few video's results for
 Practical Java Project with Spring 4 Part 1
 https://www.udemy.com/practical-java-project-with-spring-4-part-1
 
-This was build using Speing STS with the following defaults:
+This was build using Spring STS with the following defaults:
 
 Spring Web
 Thymeleaf
@@ -54,3 +54,30 @@ http://getbootstrap.com/examples/carousel/
 
 create database:
 CREATE DATABASE vboard;
+
+to create a new branch
+
+check branch
+> git branch
+
+stash current
+> git stash
+
+create new branch
+> git checkout -b register_view
+
+get stashed changes
+> git stash pop
+
+Add revisions
+> git add .
+
+Commit local
+> git commit
+
+push
+> git push origin register_view
+
+1)
+
+git push origin my_new_branch
