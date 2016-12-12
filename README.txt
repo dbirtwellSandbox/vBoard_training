@@ -75,13 +75,10 @@ Add revisions
 Commit local
 > git commit -m "adding register view"
 
-push
+push branch to GitHub Master
+
+git push origin <my_new_branch>
 > git push origin register_view
-
-1)
-
-git push origin my_new_branch
-
 -------------------------------------------------
 Add more .gitignore
 -------------------------------------------------
@@ -89,3 +86,11 @@ bin
 build
 
 classes
+
+-------------------------------------------------
+NOTE:
+To remove the accidentally committed bin folder:
+-------------------------------------------------
+$ git rm bin
+$ git commit -m "Removed bin folder"
+$ git push origin master
