@@ -3,3 +3,8 @@
 .project
 .settings
 .springBeans
+
+bin
+build
+
+classes

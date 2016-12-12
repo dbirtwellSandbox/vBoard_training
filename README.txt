@@ -81,3 +81,11 @@ push
 1)
 
 git push origin my_new_branch
+
+-------------------------------------------------
+Add more .gitignore
+-------------------------------------------------
+bin
+build
+
+classes
